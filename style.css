@@ -136,6 +136,7 @@ div {
 .list-justified {
 	text-align: justify;
 	margin: 0px 135px;
+	font-size: 16px;
 }
 
 #introduction p {
