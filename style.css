@@ -13,9 +13,11 @@ h1, h2, h3	{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 }
+
 p {
 	font-family: 'Source Serif Pro', serif;
 }
+
 h1	{
 	color: rgb(30, 30,30);
 	font-size: 28px;
@@ -52,7 +54,7 @@ div {
 	box-shadow: 1px 6px 20px rgba(60, 60, 120, 0.1);
 }
 
-/* Custom design with class (99% of your design) */
+/* Custom design with class */
 .container {
 	width: 700px;
 	margin: 40px auto;
@@ -131,6 +133,11 @@ div {
 	color: #212161;
 }
 
+.list-justified {
+	text-align: justify;
+	margin: 0px 135px;
+}
+
 #introduction p {
 	margin-bottom: 40px;
 }
@@ -139,6 +146,12 @@ div {
 	width: 100px;
 	height: 40px;
 }
+
+#InterPic {
+	width: 40px;
+	height: 50px;
+}
+
 
 .txt p {
 	background-color: white;
