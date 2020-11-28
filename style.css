@@ -11,7 +11,7 @@ body	{
 
 h1, h2, h3	{
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 }
 p {
 	font-family: 'Source Serif Pro', serif;
@@ -49,7 +49,7 @@ div {
 	border: 0px solid black; 
 	margin: 0px;
 	border-radius: 4px;
-	box-shadow: 0px 5px 30px rgba(60, 60, 120, 0.1);
+	box-shadow: 1px 6px 20px rgba(60, 60, 120, 0.1);
 }
 
 /* Custom design with class (99% of your design) */
@@ -79,12 +79,37 @@ div {
 	text-align: center;
 }
 
+.btn-blue {
+	background-color: #5858ED;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #5858ED;
+}
+
 .img-circle {
 	border-radius: 50%; 
+	width: 40px;
+	height: 40px;
 	}
 
 .img-oval {
 	border-radius: 40%;
+	width: 160px;
+	height: 190px;
+}
+
+.img-square {
+	width: 40px;
+	height: 40px;
+}
+
+.img-rect {
+	width: 65px;
+	height: 40px;
 }
 
 .list-inline {
@@ -110,6 +135,10 @@ div {
 	margin-bottom: 40px;
 }
 
+#os {
+	width: 100px;
+	height: 40px;
+}
 
 .txt p {
 	background-color: white;
